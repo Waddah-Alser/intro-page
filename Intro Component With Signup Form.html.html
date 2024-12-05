@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waddah Alser Intro Component With Signup Form</title>
+
+    <link rel="icon" href="images\favicon-32x32.png">
+
+    <link rel="stylesheet" href="Intro Component With Signup Form.css">
+
+    
+</head>
+<body>
+    <img src="images\bg-intro-desktop.png" draggable="false" alt="">
+        <div id="intro">
+            <p class="center" id="big"><strong>Learn how to code by watching others</strong></p>
+            <p class="center">
+              See how experienced developers solve problems in real-time. Watching scripted tutorials is
+              great, but understanding how developers think is invaluable.
+             </p>
+         </div>
+     
+         <div id="info">
+             <div id="up"><p><strong>Try it free 7 days</strong> then $20/mo. thereafter</p></div>
+     
+             <div id="down">
+             <input onclick="normalfirst()" id="firstname" type="text" placeholder="First name"><br>
+             <p id="firsterror" class="error">first name can not be empty</p><br>
+             <svg id="icofirst" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+
+             <input id="lastname" type="text" placeholder="Last name" onclick="normallast()"><br>
+             <p id="lasterror" class="error">last name can not be empty</p><br>
+             <svg id="icolast" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+
+             <input id="emailaddress" type="email" placeholder="Email address" onclick="normalemail()"><br>
+             <p class="error" id="emailerror">email address can not be empty</p><br>
+             <svg id="icoemail" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+
+             <input id="password" type="password" placeholder="Password" onclick="normalpassword()"><br>
+             <p class="error" id="passworderror">password can not be empty</p>
+             <svg id="icopassword" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+
+             <button onclick="check()">CLAIM YOUR FREE TRIAL</button>
+             <p id="terms">By clicking the button, you are agreeing to our <a href="">Terms and Services</a></p>
+             </div>
+         </div>
+</body>
+<script src="Intro Component With Signup Form.js"></script>
+</html>
