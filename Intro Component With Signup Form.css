@@ -73,7 +73,7 @@ input{
 #icoemail{
     visibility: hidden;
     position: absolute;
-    top: 44.5%;
+    top: 45%;
     right: 14%;
 }
 #icopassword{
@@ -128,13 +128,138 @@ button:hover{
 a{
    color: hsl(0, 100%, 74%); 
 }
-    border-radius: 5px;
-    height: 400px;
-}
-#terms{
-    font-size: x-small;
-    color: hsl(246, 25%, 77%);
-}
-a{
-   color: hsl(0, 100%, 74%); 
+@media screen and (max-width:768px) {
+    body{
+        font-size: 16px;
+        font-family: Poppins;
+        background-color: hsl(0, 100%, 74%);
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    img{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        z-index: -1;
+    }
+    #intro{
+        position: absolute;
+        text-align: center;
+        opacity: 100%;
+        color: white;
+        height: fit-content;
+        width: 90%;
+        top: 1%;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+    #big{
+        font-size: 30pt;
+        font-family: Arial, Helvetica, sans-serif;
+        word-spacing: 1%;
+        text-align: center;
+    }
+    #big::first-line{
+        text-align: center;
+        word-spacing: -5%;
+    }
+    .center{
+        position: relative;
+        text-align: center;
+        top: 20%;
+        width: 100%;
+    }
+    #info {
+        position: absolute;
+        top: 50%;
+        text-align: center;
+        width: 90%;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+    input{
+        position: relative;
+        top: 5%;
+        padding-left: 5%;
+        font-weight: 100px;
+        border-radius: 5px;
+        height: 7%;
+        width: 70%;
+        border: solid 1px hsl(246, 25%, 77%);
+        font-weight: bold;
+    }
+    #icofirst {
+        visibility: hidden;
+        position: absolute;
+        top: 6%;
+        right: 14%;
+    }
+    #icolast{
+        visibility: hidden;
+        position: absolute;
+        top: 24%;
+        right: 14%;
+    }
+    #icoemail{
+        visibility: hidden;
+        position: absolute;
+        top: 42%;
+        right: 14%;
+    }
+    #icopassword{
+        visibility: hidden;
+        position: absolute;
+        top: 59%;
+        right: 14%;
+    }
+    .error{
+        visibility: hidden;
+        position: relative;
+        top: 3%;
+        right: -28%;
+        color: hsl(0, 100%, 74%);
+        font-size: xx-small;
+    }
+    input::placeholder{
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    button{
+        font-weight: bold;
+        color: white;
+        border: solid 1px hsl(246, 25%, 77%);
+        border-radius: 5px;
+        width: 80%;
+        height: 13%;
+        margin: 2%;
+        background-color: hsl(154, 59%, 51%);
+    }
+    button:hover{
+        opacity: 60%;
+    }
+    #up{
+        color: white;
+        background-color: hsl(248, 32%, 49%);
+        border: 1px solid hsl(248, 32%, 49%);
+        border-radius: 10px;
+    }
+    #down{
+        position: relative;
+        top: 2%;
+        background-color: white;
+        border: solid 1px white;
+        border-radius: 5px;
+        height: 70%;
+    }
+    #terms{
+        font-size: x-small;
+        color: hsl(246, 25%, 77%);
+    }
+    a{
+       color: hsl(0, 100%, 74%); 
+    }
+
 }
