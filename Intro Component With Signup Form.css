@@ -18,7 +18,7 @@ img{
     opacity: 100%;
     color: white;
     width: 40%;
-    height: 500px;
+    height: 100%;
     display: inline-block;
     left: 10%;
     top: 10%;
@@ -27,66 +27,66 @@ img{
     font-size: 30pt;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
-    word-spacing: 5px;
+    word-spacing: 1%;
 }
 #big::first-line{
-    word-spacing: -5px;
+    word-spacing: -5%;
 }
 .center{
     position: relative;
-    top: 100.5px;
+    top: 20%;
     text-align: left;
-    width: 400px;
+    width: 100%;
 }
 #info {
     position: absolute;
     text-align: center;
     width: 40%;
-    height: 500px;
+    height: 100%;
     display: inline-block;
     right: 10%;
     top: 10%;
 }
 input{
     position: relative;
-    top: 5px;
-    padding-left: 25px;
+    top: 5%;
+    padding-left: 5%;
     font-weight: 100px;
     border-radius: 5px;
-    height: 30px;
-    width: 370px;
+    height: 7%;
+    width: 70%;
     border: solid 1px hsl(246, 25%, 77%);
     font-weight: bold;
 }
 #icofirst {
     visibility: hidden;
     position: absolute;
-    top: 10px;
-    right: 60px;
+    top: 6%;
+    right: 14%;
 }
 #icolast{
     visibility: hidden;
     position: absolute;
-    top: 90px;
-    right: 60px;
+    top: 25.5%;
+    right: 14%;
 }
 #icoemail{
     visibility: hidden;
     position: absolute;
-    top: 170px;
-    right: 60px;
+    top: 44.5%;
+    right: 14%;
 }
 #icopassword{
     visibility: hidden;
     position: absolute;
-    top: 250px;
-    right: 60px;
+    top: 64%;
+    right: 14%;
 }
 .error{
     visibility: hidden;
     position: relative;
-    top: -1px;
-    left: 140px;
+    top: 3%;
+    right: -28%;
     color: hsl(0, 100%, 74%);
     font-size: xx-small;
 }
@@ -99,9 +99,9 @@ button{
     color: white;
     border: solid 1px hsl(246, 25%, 77%);
     border-radius: 5px;
-    width: 370px;
-    height: 50px;
-    margin: 10px;
+    width: 80%;
+    height: 13%;
+    margin: 2%;
     background-color: hsl(154, 59%, 51%);
 }
 button:hover{
@@ -115,9 +115,19 @@ button:hover{
 }
 #down{
     position: relative;
-    top: 10px;
+    top: 2%;
     background-color: white;
     border: solid 1px white;
+    border-radius: 5px;
+    height: 70%;
+}
+#terms{
+    font-size: x-small;
+    color: hsl(246, 25%, 77%);
+}
+a{
+   color: hsl(0, 100%, 74%); 
+}
     border-radius: 5px;
     height: 400px;
 }
